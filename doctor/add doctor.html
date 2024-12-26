@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Registration</title>
+    <link rel="stylesheet" href="doctor form.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="doctor-form">
+            <div class="photo-btn" onclick="document.getElementById('photo-input').click();">
+                <img src="" alt="Select Photo" id="photo-preview">
+                <span>Select Photo</span>
+                <input type="file" id="photo-input" style="display:none;" onchange="previewPhoto(event)">
+            </div>
+            <input type="text" id="doctor-name" placeholder="ডাক্তারের নাম" required>
+            <input type="text" id="specialization" placeholder="বিশেষজ্ঞতা (Specialization)" required>
+            <input type="text" id="education" placeholder="শিক্ষাগত যোগ্যতা (Education)" required>
+            <input type="text" id="workplace" placeholder="বর্তমান কর্মস্থল (Workplace)" required>
+            <input type="text" id="mobile-number" placeholder="মোবাইল নম্বর (Mobile Number)" required>
+            <textarea id="description" placeholder="রোগের বিবরণ (Description)" rows="4"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="doctor from.js"></script>
+</body>
+</html>

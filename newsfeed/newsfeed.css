@@ -1,0 +1,239 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-form {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+/* Newsfeed styles */
+.newsfeed {
+    margin-top: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header .profile-img {
+    width: 40px;
+    height: 40px;
+}
+
+.post-header .username {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.post-header .post-time {
+    font-size: 12px;
+    color: #888;
+    margin-left: auto;
+}
+
+.post-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Ensure the post image fits properly */
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Optional: keeps rounded corners */
+    border: 3px solid #ddd; /* Adds a border around the image */
+}
+
+/* Like and Comment buttons */
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post-actions button {
+    background-color: transparent;
+    border: none;
+    color: #1877f2;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.post-actions button:hover {
+    color: #166fe5;
+}
+
+/* Comment section styles */
+.comment-section {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.comment-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.post-comment-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.post-comment-btn:hover {
+    background-color: #166fe5;
+}
+
+/* Individual comment styles */
+.comment {
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment-username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.comment-content {
+    font-size: 14px;
+    color: #333;
+}
+.header {
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 128, 68);
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header img {
+    width: 75%;
+    height: 75%;
+    margin-bottom: 1px;
+    align-items: center;
+
+}
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    
+}
+
+.bottom-nav a {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+    
+}
+
+.bottom-nav a img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 0 auto;
+    
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsfeed</title>
+    <link rel="stylesheet" href="newsfeed.css">
+</head>
+<body>
+    <div class="header">
+        <a  href="#">
+            
+            <img src="Madaripurcity.png" alt="Madaripur city">
+        </a>
+    </div>
+
+    <div class="container">
+        <!-- Post Form -->
+        <div class="post-form">
+            <div class="profile">
+                <img src="https://via.placeholder.com/40" alt="profile" class="profile-img">
+                <textarea id="post-text" placeholder="What's on your mind?"></textarea>
+            </div>
+            <input type="file" id="image-upload" accept="image/*">
+            <button onclick="createPost()">Post</button>
+        </div>
+
+        <!-- Newsfeed -->
+        <div id="newsfeed" class="newsfeed">
+            <!-- Posts will appear here -->
+        </div>
+    </div>
+
+
+    <div class="bottom-nav">
+        <a href="http://127.0.0.1:5500/index.html#">
+            <img src="home.png" alt="Home">
+            <span>Home</span>
+        </a>
+        <a class="b" href="newsfeed/newsfeed.html">
+            <img src="post.png" alt="Newsfeed">
+            <span>Newsfeed</span>
+        </a>
+        <a href="#">
+            <img src="ringing.png" alt="Notifications">
+            <span>Notifications</span>
+        </a>
+        <a href="#">
+            <img src="user.png" alt="Profile">
+            <span>Profile</span>
+        </a>
+    </div>
+
+    <script src="newsfeed.js"></script>
+</body>
+</html>
