@@ -15,13 +15,13 @@ function createPost() {
         postHeader.classList.add('post-header');
         
         const profileImg = document.createElement('img');
-        profileImg.src = "https://via.placeholder.com/40"; // Placeholder image
+        profileImg.src = "user.png"; // Placeholder image
         profileImg.classList.add('profile-img');
         postHeader.appendChild(profileImg);
         
         const username = document.createElement('span');
         username.classList.add('username');
-        username.innerText = "John Doe";  // Placeholder for username
+        username.innerText = "M. Ahamed Bijoy";  // Placeholder for username
         postHeader.appendChild(username);
         
         // Calculate time ago
